@@ -1,0 +1,28 @@
+GET http://localhost:3000/classattendencee
+
+###
+
+
+GET http://localhost:3000/classattendencee/61d0ebb0ef4a9c16ec8b196a
+
+
+###
+POST  http://localhost:3000/classattendencee/
+Content-Type: application/json
+
+{
+    "name": "Faahim",
+    "presentinclass":"Yes"
+}
+
+###
+DELETE http://localhost:3000/classattendencee/61d0ebb0ef4a9c16ec8b196a
+
+###
+PATCH  http://localhost:3000/classattendencee/61d0ebc1ef4a9c16ec8b196c
+Content-Type: application/json
+
+
+{
+    "name": "New Name"
+}
